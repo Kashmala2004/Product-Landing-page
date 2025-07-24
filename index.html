@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productive - Work Smarter</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="page">
+  <header id="header">
+    <div class="logo">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTboiNq1tr-uBYTc6uXwqdRbceVmwkoYDyMDQ&s" id="header-img"/>
+      <span>Productive</span>
+      </div>
+    <nav id="nav-bar">
+      <a href="#features" class="nav-link">Features</a>
+      <a href="#overview" class="nav-link">Overview</a>
+      <a href="#pricing" class="nav-link">Pricing</a>
+    </nav>
+  </header>
+  <section class="heading">
+    <div class="title-block">
+      <h1>Boost Your Productivity</h1>
+      <p>All in one tool to organize, plan and execute with precision</p>
+      <form action="https://www.freecodecamp.com/email-submit" target="_blank" id="form">
+        <input type="email" name="email" placeholder="Enter your email" id="email"/>
+        <input type="submit" value="Get Started" id="submit"/>
+      </form>
+        </div>
+    
+    <div class="title-img">
+      <img src="https://i.postimg.cc/2SJK2dGN/undraw-dev-productivity-5wps-removebg-preview.png" 
+     alt="Working late productivity illustration" class="hero-img" />
+    </div>
+  </section>
+
+  <section class="Features">
+    <h2 id="features">Features</h2>
+    <div class="feature-container">
+      <div class="feature">
+        <img src="https://i.postimg.cc/FRyPt4Tg/icons8-setting-100.png" alt="task"/>
+        <h3>Task Management</h3>
+        <p>Organize your tasks efficiently and never miss a deadline.</p>
+      </div>
+
+      <div class="feature">
+        <img src="https://i.postimg.cc/PfCXDbXj/icons8-checkmark-128.png"/>
+       <h3>Time Tracking</h3>
+      <p>Keep track of time spent on projects.</p>
+      </div>
+
+      <div class="feature">
+        <img src="https://i.postimg.cc/Dy0zBdf5/icons8-crowd-100-removebg-preview.png"/>
+        <h3>Collaborative Tools</h3>
+        <p>Enhance team collaboration with shared projects.</p>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="video">
+    <h2 id="overview">Watch Our Overview</h2>
+    <iframe
+      src="https://www.youtube.com/embed/J9J5UuHZCUg"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen id="video">
+    </iframe>
+  </section>
+
+
+  <section class="pricing">
+  <h2 id="pricing">Choose Your Plan</h2>
+  <div class="pricing-container">
+    <div class="plan price">
+      <h3>Free</h3>
+      <p><strong>$0/month</strong></p>
+      <ul>
+        <li>Up to 3 Projects</li>
+        <li>Basic Task Management</li>
+        <li>Email Support</li>
+      </ul>
+      <button class="select-btn" onclick="selectPlan(this)">Select</button>
+
+    </div>
+    
+    <div class="plan price">
+      <h3>Pro</h3>
+      <p><strong>$9.99/month</strong></p>
+      <ul>
+        <li>Unlimited Projects</li>
+        <li>Advanced Time Tracking</li>
+        <li>Team Collaboration</li>
+        <li>Priority Support</li>
+      </ul>
+      <button class="select-btn" onclick="selectPlan(this)">Select</button>
+
+    </div>
+    
+    <div class="plan price">
+      <h3>Enterprise</h3>
+      <p><strong>$49.99/month</strong></p>
+      <ul>
+        <li>Custom Integrations</li>
+        <li>Dedicated Account Manager</li>
+        <li>Team Training</li>
+        <li>Premium Support</li>
+      </ul>
+      <button class="select-btn" onclick="selectPlan(this)">Select</button>
+
+    </div>
+  </div>
+</section>
+  <footer>
+    <p>&copy; 2025 Productive. All rights reserved.</p>
+    <ul>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </footer>
+  </div>
+  </body>
+</html>
